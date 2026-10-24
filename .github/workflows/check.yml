@@ -1,0 +1,11 @@
+name: Check
+on:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo hello
+      - name: Take a while
+        run: sleep 40
